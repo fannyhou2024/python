@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import plotly.io as pio
-pio.renderers.default = "browser"
+# pio.renderers.default = "browser"
 df = px.data.iris()
 print(df.head())
 fig = px.scatter(df, x='sepal_width',
